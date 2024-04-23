@@ -1,0 +1,65 @@
+#topo{
+    width: 15rem;
+}
+#container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: darkred;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#container-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome-topo{
+    font-size: 1.7rem;
+    
+}
+
+.nome-topo:hover{
+    font-size: 1.8rem;
+    cursor:pointer;
+}
+
+#meio{
+    display: flex;
+    justify-content: space-between;
+}
+footer > div {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkred;
+    padding: 4rem;
+
+}
+.imagem{
+    width: 50%;
+    height: auto;
+}
+.footer1{
+    font-size: 1.4rem;
+}
+.footer1:hover{
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.footer2{
+    font-size: 1.2rem;
+}
+.footer2:hover{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+footer > p {
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
